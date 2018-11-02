@@ -30,7 +30,7 @@ import React from "react";
 
 const Weather = props => (
 
-  <div>Weather Component
+  <div>
     {props.city && props.country && <p>Location: {props.city}, {props.country}</p>}
     {props.temperature && <p>Temperature: {props.temperature}</p>}
     {props.humidity && <p>Humidity: {props.humidity}</p>}

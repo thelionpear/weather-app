@@ -2,9 +2,10 @@ import React from "react";
 import Titles from "./components/Titles";
 import Form from "./components/Form"; 
 import Weather from "./components/Weather"; 
- 
-const API_KEY = process.env.REACT_APP_WEATHER_API_KEY;
 
+const API_KEY = `${process.env.REACT_APP_API_KEY}`;
+
+console.log(API_KEY) 
 //research async await more and template strings 
 
 class App extends React.Component {
